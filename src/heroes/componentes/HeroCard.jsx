@@ -10,8 +10,7 @@ const CharacterByHero = ({alter_ego,characters})=>{
 
 
 export const  HeroCard =  ({id,superhero,publisher,alter_ego,first_appearance,characters})=> {
-    const heroImage = `${process.env.PUBLIC_URL}/assets/heroes/${id}.jpg`
-    //const characterByHero =(<p>{characters}</p>)
+  const heroImage = `https://raw.githubusercontent.com/SantiagoPip/heroes-app/main/public/assets/heroes/${id}.jpg`;    //const characterByHero =(<p>{characters}</p>)
 
   return (
     <>
