@@ -23,7 +23,6 @@ describe('Pruebas en el <SearchPage/>', () => {
                 <SearchPage/>
             </MemoryRouter>
         )
-        screen.debug()
         const input = screen.getByRole('textbox')
         expect(input.value).toBe('batman')
         const img = screen.getByRole('img')
