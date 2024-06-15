@@ -10,7 +10,7 @@ const CharacterByHero = ({alter_ego,characters})=>{
 
 
 export const  HeroCard =  ({id,superhero,publisher,alter_ego,first_appearance,characters})=> {
-    const heroImage = `/assets/heroes/${id}.jpg`
+    const heroImage = `${process.env.PUBLIC_URL}/assets/heroes/${id}.jpg`
     //const characterByHero =(<p>{characters}</p>)
 
   return (
